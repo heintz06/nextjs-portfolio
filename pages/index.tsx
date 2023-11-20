@@ -21,12 +21,12 @@ export default function Home() {
     <>
       <div>
         <Head>
-          <title>Marventz&apos;s Portfolio</title>
+          <title>Marventz Beneche</title>
         </Head>
       </div>
-      <main className='px-10'>
+      <main className='px-10 my-10'>
         <section className="min-h-screen">
-          <NavBar />
+          {/* <NavBar /> */}
           <div className='text-center'>
             <h2 className='text-5xl py-2 text-black font-medium'>Marventz Beneche</h2>
             <h3 className='text-2xl py-2'>Software Developer</h3>
@@ -54,7 +54,7 @@ export default function Home() {
                             h-80 mt-10 overflow-hidden' >
                   <Image src={heintz} alt="Marventz" layout='fill'/>
             </div>
-            <div className='text-center py-5'>
+            <div className='text-center my-5'>
               <BtnResume/>
             </div>
         </section>

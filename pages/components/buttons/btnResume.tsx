@@ -13,7 +13,7 @@ const BtnResume = () => {
     return (
         <div>            
             <button 
-                className='bg-gradient-to-r from-yellow-950 to-black text-white shadow-md font-bold py-2 px-4 rounded-3xl'
+                className='bg-gradient-to-r from-yellow-950 to-black text-white shadow-md shadow-gray-500 border-none font-bold py-2 px-4 rounded-3xl'
                 onClick={downloadResume}
             >
                 Download Resume
