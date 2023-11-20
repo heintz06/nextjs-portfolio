@@ -3,8 +3,8 @@ import React from 'react';
 const BtnResume = () => {
     const downloadResume = () => {
         const link = document.createElement('a');
-        link.href = process.env.PUBLIC_URL + '/pdf/resume.pdf'; // Path to your PDF in the public folder
-        link.download = 'Resume.pdf'; // Optional: Set a default filename for the downloaded file
+        link.href = '/pdf/resume.pdf'; // Direct path, without process.env.PUBLIC_URL
+        link.download = 'Resume.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

@@ -10,7 +10,6 @@ import heintz from "../public/img/marventz.png"
 import {
   AiFillTwitterCircle, 
   AiFillLinkedin, 
-  AiFillYoutube, 
   AiFillInstagram,
   AiFillGithub
 } from 'react-icons/ai'
@@ -33,11 +32,21 @@ export default function Home() {
             <h3 className='text-2xl py-2'>Software Developer</h3>
             <p className='text-md py-5 leading-8 text-grey-500'>Transforming Imagination into Code: Your Vision, Our Creation</p>
             <div className='text-5xl flex justify-center gap-5'>
-              <AiFillTwitterCircle className="cursor-pointer"/>
-              <AiFillLinkedin className="cursor-pointer"/>
-              <AiFillYoutube className="cursor-pointer"/>
-              <AiFillInstagram className="cursor-pointer"/>
-              <AiFillGithub className="cursor-pointer"/>
+              <a href="https://twitter.com/heintz04">
+                <AiFillTwitterCircle className="cursor-pointer"/>
+              </a>
+              <a href="https://www.linkedin.com/in/benechem/">
+                <AiFillLinkedin className="cursor-pointer"/>
+              </a>
+              <a href="https://www.instagram.com/heintz06/">                
+                <AiFillInstagram className="cursor-pointer"/>
+              </a>
+              <a href="https://github.com/heintz06">
+                <AiFillGithub className="cursor-pointer"/>
+              </a>
+              {/* <a href="">
+              </a> */}
+              
             </div>         
           </div>
             <div className='relative mx-auto bg-gradient-to-b
