@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import Head from 'next/head'
 import Skills from './components/skills'
 import {BsFillMoonStarsFill} from 'react-icons/bs'
-import heintz from "../public/marventz.jpg"
+import heintz from "../public/marventz.png"
 import design from "../public/design.png"
 import {
   AiFillTwitterCircle, 
