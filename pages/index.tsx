@@ -28,7 +28,7 @@ export default function Home() {
         <section className="min-h-screen">
           {/* <NavBar /> */}
           <div className='text-center'>
-            <h2 className='text-5xl py-2 text-black font-medium'>Marventz Beneche</h2>
+            <h2 className='text-5xl py-2 font-medium'>Marventz Beneche</h2>
             <h3 className='text-2xl py-2'>Software Developer</h3>
             <p className='text-md py-5 leading-8 text-grey-500'>Transforming Imagination into Code: Your Vision, Our Creation</p>
             <div className='text-5xl flex justify-center gap-5'>
