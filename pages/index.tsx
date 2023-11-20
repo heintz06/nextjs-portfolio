@@ -39,16 +39,16 @@ export default function Home() {
               <AiFillGithub className="cursor-pointer"/>
             </div>         
           </div>
-          <div className='relative mx-auto bg-gradient-to-b from-teal-600 rounded-full w-80 h-80 mt-10 overflow-hidden' >
-              <Image src={heintz} alt="Marventz" layout='fill' objectFit='cover' />
+        <div className='relative mx-auto bg-gradient-to-b from-yellow-100 rounded-full w-80 h-80 mt-10 overflow-hidden' >
+              <Image src={heintz} alt="Marventz" layout='fill'/>
             </div>
         </section>
-        <section className='flex justify-center mb-10'>
+         {/*  <section className='flex justify-center mb-10'>
           <div className="">
             <h3 className='text-3xl py-5 text-center'> 🧰 Languages and Tools:</h3>
-            <div className="items-center"><Skills/></div>
+            <div className="items-center"><Skills/></div> 
           </div>
-        </section>
+        </section>*/}
       </main>
       </>
   )
